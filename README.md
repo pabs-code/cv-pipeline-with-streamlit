@@ -1,28 +1,28 @@
-# 🧾 Project Overview
+# Project Overview
 
 **Project Name:** Computer Vision Pipeline with Streamlit  
 **Description:** A simple yet powerful image processing pipeline using **OpenCV**, **NumPy**, and **Streamlit**. It supports grayscale conversion, Gaussian blur, Sobel edge detection, Canny edge detection, and histogram visualization.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
-- [🧾 Project Overview](#-project-overview)
-  - [📚 Table of Contents](#-table-of-contents)
-  - [🚀 Features](#-features)
-  - [📦 Installation](#-installation)
-  - [🧪 Usage](#-usage)
-  - [📸 Example Screenshot and Video](#-example-screenshot-and-video)
-    - [✅ Example Screenshot (Textual Description)](#-example-screenshot-textual-description)
-    - [🔹 Example Video (Optional)](#-example-video-optional)
-  - [🔍 Filtering Techniques and Metrics Definitions](#-filtering-techniques-and-metrics-definitions)
-  - [🧩 Example Use Case](#-example-use-case)
-  - [📌 Summary](#-summary)
-  - [📄 MIT License](#-mit-license)
+- [Project Overview](#project-overview)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#-features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Example Screenshot and Video](#example-screenshot-and-video)
+    - [Example Screenshot (Textual Description)](#-example-screenshot-textual-description)
+    - [Example Video](#example-video)
+  - [Filtering Techniques and Metrics Definitions](#filtering-techniques-and-metrics-definitions)
+  - [Example Use Case](#-example-use-case)
+  - [Summary](#-summary)
+  - [MIT License](#-mit-license)
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Image Upload:** Supports `.jpg`, `.jpeg`, and `.png` formats.
 - **Grayscale Conversion:** Converts uploaded images to grayscale.
@@ -35,7 +35,7 @@
 
 ---
 
-## 📦 Installation
+## Installation
 
 To install the required dependencies, run:
 
@@ -48,18 +48,16 @@ pip install streamlit opencv-python numpy pillow
 To run the application:
 
 ```bash
-streamlit run your_script_name.py
+streamlit run app.py
 ```
-
-Replace `your_script_name.py` with the name of your Python file (e.g., `image_pipeline.py`).
 
 ---
 
-## 🧪 Usage
+## Usage
 
 1. **Run the Streamlit App:**
    ```bash
-   streamlit run image_pipeline.py
+   streamlit run app.py
    ```
 
 2. **Upload an Image:**
@@ -72,9 +70,9 @@ Replace `your_script_name.py` with the name of your Python file (e.g., `image_pi
 
 ---
 
-## 📸 Example Screenshot and Video
+## Example Screenshot and Video
 
-### ✅ Example Screenshot (Textual Description)
+### Example Screenshot (Textual Description)
 
 | Step | Description                   |
 | ---- | ----------------------------- |
@@ -85,19 +83,18 @@ Replace `your_script_name.py` with the name of your Python file (e.g., `image_pi
 | 5    | Canny Edge Detection Output   |
 | 6    | Grayscale Histogram Displayed |
 
-> 📷 *You can include actual screenshots or a GIF/video here using markdown image syntax.*
+### Example Video
 
-### 🔹 Example Video (Optional)
 
-If you have a video demonstrating the app in action, you can embed it like this:
+> 📷 **Video of CV Pipeline Streamlit**
 
-```markdown
-![Video Demo](https://example.com/your-video.mp4)
-```
+
+https://github.com/user-attachments/assets/b7973998-9be8-45f0-8fd8-250c6477d186
 
 ---
 
-## 🔍 Filtering Techniques and Metrics Definitions
+
+## Filtering Techniques and Metrics Definitions
 
 | Technique                | Description                                                | Metric                         |
 | ------------------------ | ---------------------------------------------------------- | ------------------------------ |
@@ -109,7 +106,7 @@ If you have a video demonstrating the app in action, you can embed it like this:
 
 ---
 
-## 🧩 Example Use Case
+## Example Use Case
 
 **Use Case:** Detect edges in a scanned document for OCR processing.
 
@@ -123,11 +120,13 @@ If you have a video demonstrating the app in action, you can embed it like this:
 
 ---
 
-## 📌 Summary
+## Summary
 
 This project provides a complete image processing pipeline with interactive visualization using Streamlit. It is ideal for developers and researchers who need a simple, customizable image processing tool with support for edge detection, noise reduction, and histogram analysis.
 
 ---
 
-## 📄 MIT License
+## MIT License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
