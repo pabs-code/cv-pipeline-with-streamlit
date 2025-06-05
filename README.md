@@ -72,7 +72,7 @@ streamlit run app.py
 
 ## Example Screenshot and Video
 
-### Example Screenshot (Textual Description)
+### Example of steps for CV pipeline using streamlit
 
 | Step | Description                   |
 | ---- | ----------------------------- |
