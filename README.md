@@ -1,6 +1,6 @@
 # Project Overview
 
-**Project Name:** Computer Vision Pipeline with Streamlit  
+**Project Name:** Mini-Computer-Vision Pipeline with Streamlit  
 **Description:** A simple yet powerful image processing pipeline using **OpenCV**, **NumPy**, and **Streamlit**. It supports grayscale conversion, Gaussian blur, Sobel edge detection, Canny edge detection, and histogram visualization.
 
 ---
